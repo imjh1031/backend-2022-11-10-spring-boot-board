@@ -1,4 +1,4 @@
-package com.jihyeon.board.dto.auth;
+package com.jihyeon.board.dto.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginDto {	
-	private String token;
-	private int expirationTime;
+public class PostUserResponseDto {
+
+	private boolean result;
+	
 }

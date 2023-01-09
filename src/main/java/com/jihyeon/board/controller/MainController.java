@@ -1,4 +1,4 @@
-package com.example.board.controller;
+package com.jihyeon.board.controller;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.board.dto.HelloDto;
-import com.example.board.dto.response.ResponseDto;
+import com.jihyeon.board.dto.response.ResponseDto;
 // Response로 HTML을 반환하는 Controller가 아닌
 // Response Body에 직접 데이터를 담아서 응답하는  Controller
 // @Controller + @ResponseBody
