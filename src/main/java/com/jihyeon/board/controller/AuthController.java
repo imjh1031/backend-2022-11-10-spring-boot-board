@@ -15,6 +15,8 @@ import com.jihyeon.board.service.AuthService;
 @RestController
 @RequestMapping("api/auth/")
 public class AuthController {
+	
+	// @Autowired : 해당하는 클래스 인스턴스를 자동으로 생성(주입) 해줌
 	@Autowired AuthService authService;
 
 	@PostMapping("")
@@ -29,7 +31,7 @@ public class AuthController {
 		return authService.hello();
 	}
 	
-	///////////////////////////////////////////////////////////////////////////
+	
 	
 	
 }
